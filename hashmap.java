@@ -13,6 +13,7 @@ public class hashmap {
         numbers.remove("three");
         System.out.println(numbers);
 
+        System.out.println(numbers.get("one"));
         // System.out.println(numbers[one]);
         // unique key
         // numbers.put("three",33); //update
@@ -44,14 +45,14 @@ public class hashmap {
         // System.out.println(key);
         // }
 
-        Map<String, Integer> map = new HashMap<>();
-        map.put("apple", 5);
-        map.put("banana", 3);
+        // Map<String, Integer> map = new HashMap<>();
+        // map.put("apple", 5);
+        // map.put("banana", 3);
 
-        int count1 = map.getOrDefault("apple", 0); // Returns 5
-        int count2 = map.getOrDefault("orange", 0); // Returns 0
-        int count3 = map.getOrDefault("banana", 0); // Returns 3
-        System.out.println(count1 + ", " + count2 + ", " + count3);
+        // int count1 = map.getOrDefault("apple", 0); // Returns 5
+        // int count2 = map.getOrDefault("orange", 0); // Returns 0
+        // int count3 = map.getOrDefault("banana", 0); // Returns 3
+        // System.out.println(count1 + ", " + count2 + ", " + count3);
 
 
     }

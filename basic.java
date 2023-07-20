@@ -1,18 +1,7 @@
-//List and ArrayList
-
-
-// import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Iterator;
-
-
+import java.util.*;
 public class basic {
     public static void main(String args[])
     {
-        // System.out.println("let's learn Java");
-
         //Take input
         // int a;
         // System.out.println("Enter a number:");
@@ -23,12 +12,13 @@ public class basic {
         //Fixed size
         // String[] students_name=new String[30];
         // students_name[0]="Ankesh";
-        // students_name[31]="Ritika";
+        // students_name[31]="Ritika"; //error : outOfIndex/Bound
 
         //Dynamic size
         // ArrayList<String> students_name=new ArrayList<>();
         // students_name.add("Ankesh");
         // students_name.add("Ashok");
+        
         
         //List
         List<Integer>list = new ArrayList<>();

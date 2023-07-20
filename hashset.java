@@ -5,14 +5,16 @@ import java.util.Set;
 public class hashset {
     public static void main(String[] argu)
     {
-        // Set<Integer>set=new HashSet<>();     //order is random
-        // Set<Integer>set=new LinkedHashSet<>();  //order is same
+        Set<Integer>set=new HashSet<>();     //order is random
+        // Set<Integer>set=new LinkedHashSet<>();  //order is same {add and remove o(1)}
         // Set<Integer>set=new TreeSet<>();    //sorted
-        // set.add(1);
-        // set.add(12);
+        set.add(1);
+        set.add(12);
         // set.add(121);
         // System.out.println("HashSet"+set);
         
+        System.out.println(set.iterator().next());
+
         //unique
         // set.add(121);
         // set.add(121);
@@ -33,14 +35,14 @@ public class hashset {
 
 
         //Custom class set
-        Set<Student>set=new HashSet<>();
-        set.add(new Student("Ashok", 3));
-        set.add(new Student("Asha", 2));
-        set.add(new Student("Ankesh", 1));
-        set.add(new Student("Ankesh", 1)); //problem -> it will add it
+        // Set<Student>set=new HashSet<>();
+        // set.add(new Student("Ashok", 3));
+        // set.add(new Student("Asha", 2));
+        // set.add(new Student("Ankesh", 1));
+        // set.add(new Student("Ankesh", 1)); //problem -> it will add it
         //becoz ye doh different object hai and hashset inhe differentiate nhi kr skta
             //solution -> we have to define hascode
 
-        System.out.println(set);
+        // System.out.println(set);
     }
 }
